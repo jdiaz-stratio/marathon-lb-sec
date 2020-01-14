@@ -13,7 +13,7 @@ hose {
     GENERATE_QA_ISSUE = true
     INSTALLTIMEOUT = 120
 
-    ANCHORE_TEST = 'true'
+    ANCHORE_POLICY = "production"
 
     INSTALLSERVICES = [
         ['DCOSCLIHETZNER':  ['image': 'stratio/dcos-cli:0.4.15-SNAPSHOT',
